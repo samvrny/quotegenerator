@@ -5,13 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Random Quotes</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Script -->
+    <!-- quote container -->
+    <main class="main-container" id="container">
+
+        <!-- quote -->
+        <div class="quote-box">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">Here is a quote for the quotebox</span>
+            <i class="fas fa-quote-right"></i>
+        </div>
+
+        <!-- author -->
+        <div class="author-box">
+            <span id="author-name">Author</span>
+        </div>
+
+        <!-- buttons -->
+        <div class="button-box">
+            <button class="twitter" id="twitter" title="Tweet this quote!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="generate-quote">New Quote</button>
+        </div>
+    </main>
+    <!-- script -->
     <script src="script.js"></script>
 </body>
 
