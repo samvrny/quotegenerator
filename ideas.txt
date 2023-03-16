@@ -1,0 +1,7 @@
+idea for other buttons to use:
+make a const for each tag (let quotes1array = )
+ let quotes1 = []
+ for(i=0; i < 100; i++) {
+     quotes1.push(quotes[i])
+ }
+ console.log(quotes1)
