@@ -44,4 +44,13 @@ function singleQuote() {
     }
 }
 
+//post to twitter
+function tweetQuote() {
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}`;
+    window.open(twitterUrl, '_blank')
+}
+
+quoteButton.addEventListener('click', singleQuote)
+twitterButton.addEventListener('click', tweetQuote)
+
 fetchQuotes();
